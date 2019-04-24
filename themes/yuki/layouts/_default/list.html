@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ $dateFormat := default "02 January 2006" (index .Site.Params "datefmt") }}
+
+{{ range .Paginator.Pages }}
+<ul>
+    <li>
+        <span>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time>:
+
+            <a href="{{ .RelPermalink }}">{{- .Title -}}</a>
+        </span>
+    </li>
+</ul>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+
+{{ end }}

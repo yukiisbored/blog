@@ -1,0 +1,11 @@
+baseURL = "http://blog.yukiisbo.red/"
+languageCode = "en-us"
+title = "blog.yukiisbo.red"
+
+theme = "yuki"
+
+paginate = 3
+paginatePath = "page"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title"

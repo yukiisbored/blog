@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ $dateFormat := default "02 January 2006" (index .Site.Params "datefmt") }}
+<i>Published on <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time></i>
+<article>
+    {{ .Content }}
+</article>
+<a href="/">Go back</a>.
+{{ end }}
