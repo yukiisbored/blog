@@ -23,7 +23,7 @@ programming experience. So, With the help of a friend called Steve, We wrote the
 plugins for it.
 
 The zombie survival experience part was easy. We found this plugin called
-Apocalyptic on Bukkit plugins but It was largely unmaintained and has some bugs.
+Apocalyptic on Bukkit plugins but It was largely unmaintained and had some bugs.
 I forked it and made the fixes required to make it work with newer versions of
 Bukkit. The hard part? Balancing. Balancing is one of those problems that have
 no end in sight. How do we make the gameplay balanced? How do we make it fair?
