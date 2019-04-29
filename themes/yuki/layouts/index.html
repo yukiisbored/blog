@@ -7,7 +7,7 @@
 </a>
 <i>Published on <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time></i>
 <article>
-    <p>{{- .Summary | plainify -}} <span> <a href="{{ .RelPermalink }}">...</a></span></p>
+    <p>{{- .Summary -}} <span> <a href="{{ .RelPermalink }}">...</a></span></p>
 </article>
 {{ end }}
 
