@@ -2,6 +2,7 @@
     <title>{{ .Title }}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/syntax.css">
     <style type="text/css">
      body {
          font-family:       sans-serif;
@@ -9,7 +10,7 @@
          max-width:         650px;
          line-height:       1.6;
          font-size:         18px;
-         color:             #444;
+         color:             #373b41;
          padding:           0 10px;
      }
 
@@ -27,6 +28,16 @@
 
      a {
          text-decoration:   none;
+         color:             #2196f3;
+     }
+
+     pre {
+         padding:           10px 10px;
+     }
+
+     :not(pre) > code {
+         padding:           2px 2px;
+         color:             #558b2f;
      }
     </style>
 </head>
