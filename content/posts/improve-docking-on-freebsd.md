@@ -160,7 +160,7 @@ everything will work :).
 [^1]: Well no, it also does some other things like attaching and detaching device and all of the ACPI goodness.
 [^2]: What kind of grass were they smoking when creating the
       [rules syntax][udev rules]!?
-[^3]: [FreeBSD patch submission](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=238138.)
+[^3]: [FreeBSD patch submission](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=238138)
 
 [email thread]: https://marc.info/?l=freebsd-mobile&m=120186653700412&w=2
 [udev rules]: http://www.reactivated.net/writing_udev_rules.html#syntax
