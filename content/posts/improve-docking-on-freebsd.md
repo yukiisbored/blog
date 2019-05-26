@@ -43,7 +43,7 @@ on freebsd-mobile: [acpi_dock and devd question][email thread]. In that thread,
 `iwasaki@` wrote a diff that add a notify call to tell `devd(8)` when we're
 docked and undocked. Well, the diff kinda works as-is but we need to make some
 changes to make it work with today's version and add a check to see if `devd(8)`
-is even running or not. So, I made it work on `-CURRENT` and it works.
+is even running or not. So, I made it those changes and it works.
 
 I tried contacting `iwasaki@` if he wants to get the patch submitted himself but
 I didn't receive a respond so I just submit it along with my changes myself on
