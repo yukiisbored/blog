@@ -1,0 +1,72 @@
+body {
+    font-family:       serif;
+    line-height:       1.6;
+    font-size:         18px;
+    color:             #373b41;
+    padding:           0 0;
+    margin:            0 0;
+}
+
+.container {
+    max-width:         600px;
+    margin:            0 auto;
+}
+
+h1, h2, h3 {
+    line-height:       1.2;
+    font-weight:       100;
+}
+
+footer {
+    margin-top:        16px;
+}
+
+article {
+    text-align:        justify;
+}
+
+a {
+    color:             #373b41;
+}
+
+pre {
+    padding:           10px 10px;
+}
+
+:not(pre) > code {
+    padding:           2px 2px;
+    color:             #558b2f;
+}
+
+.cover-image {
+    width:             100%;
+    display:           block;
+    margin:            16px auto;
+}
+
+.pagination-wrapper {
+    margin:            0 auto;
+}
+
+ul.pagination {
+    list-style-type:   none;
+    margin:            0 auto;
+    padding:           0;
+}
+
+li.page-item {
+    float:             left;
+    margin:            0 0.5em;
+}
+
+@media (width <= 600px) {
+    .container {
+        padding:       0 12px;
+    }
+}
+
+img {
+    display:           block;
+    max-width:         100%;
+    height:            auto;
+}

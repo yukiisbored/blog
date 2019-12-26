@@ -1,14 +1,17 @@
 {{ define "main" }}
-{{ $dateFormat := default "02 January 2006" (index .Site.Params "datefmt") }}
-<i>Published on <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time></i>
-<article>
-    {{ .Content }}
-</article>
-<a href="/">Go back</a>.
 
-<script data-isso="//comments.yukiisbo.red/"
-        data-isso-lang="en"
-        data-isso-reply-to-self="true"
-        src="//comments.yukiisbo.red/js/embed.min.js"></script>
-<section id="isso-thread"></section>
+{{ $dateFormat := default "02 January 2006" (index .Site.Params "datefmt") }}
+
+<div class="container">
+    <i>Published on <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time></i>
+</div>
+{{ if .Params.Cover }}
+<img class="cover-image" src="{{ .Params.Cover }}">
+{{ end }}
+<div class="container">
+    <article>
+        {{ .Content }}
+    </article>
+</div>
+
 {{ end }}
