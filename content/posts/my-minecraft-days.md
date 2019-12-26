@@ -7,7 +7,7 @@ draft: false
 I used to go under different pseudonyms, one of which is "captainFroster". I
 used "captainFroster" during my younger days where Minecraft was in its peak
 popularity and I was known for ... *Minecraft*. I had a Minecraft server called
-Project-Z¹ or Nucleus Servers. You may not heard of it and I'm not surprised since
+Project-Z[^1] or Nucleus Servers. You may not heard of it and I'm not surprised since
 it was targeted towards Indonesians. It was my spin on the hardcore survival
 genre. This was at the time where zombie survival games like DayZ was popular
 racking thousands of online players. I wanted something like DayZ but less focus
@@ -122,6 +122,6 @@ Fortress, I guess.
 
 Anyway, that's all for today. Feel free to cringe at [my old code][1].
 
-¹: Yes, I know there's a porn site called "Project-Z". Just ignore that.
+[^1]: Yes, I know there's a porn site called "Project-Z". Just ignore that.
 
 [1]: https://gitlab.com/nucleus-servers/NuPlugins
