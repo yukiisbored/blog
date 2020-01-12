@@ -9,7 +9,17 @@
 <img class="cover-image" src="{{ .Params.Cover }}">
 {{ end }}
 <div class="container">
+    {{ if .Params.Toc }}
+    <div class="toc">
+        <h1>Table of Contents</h1>
+        {{ .TableOfContents }}
+    </div>
+    {{ end }}
+    {{ if .Params.Count }}
+    <article class="count">
+    {{ else }}
     <article>
+    {{ end }}
         {{ .Content }}
     </article>
 </div>

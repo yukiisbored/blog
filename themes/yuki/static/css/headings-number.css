@@ -1,0 +1,46 @@
+/* Taken from https://codepen.io/X-Raym/pen/dBprG */
+
+body {
+    counter-reset: h2;
+}
+
+h2 {
+    counter-reset: h3;
+}
+
+h3 {
+    counter-reset: h4;
+}
+
+h4 {
+    counter-reset: h5;
+}
+
+h5 {
+    counter-reset: h6;
+}
+
+article.count h2:before {
+    content: counter(h2,decimal) ". ";
+    counter-increment: h2;
+}
+
+article.count h3:before {
+    content: counter(h2,decimal) "." counter(h3,decimal) ". ";
+    counter-increment: h3;
+}
+
+article.count h4:before {
+    content: counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) ". ";
+    counter-increment: h4;
+}
+
+article.count h5:before {
+    content: counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) "." counter(h5,decimal) ". ";
+    counter-increment: h5;
+}
+
+article.count h6:before {
+    content: counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) "." counter(h5,decimal) "." counter(h6,decimal) ". ";
+    counter-increment: h6;
+}

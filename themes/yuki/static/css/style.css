@@ -12,7 +12,7 @@ body {
     margin:            0 auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     line-height:       1.2;
     font-weight:       100;
 }
@@ -30,12 +30,11 @@ a {
 }
 
 pre {
-    padding:           10px 10px;
+    margin: 5px 10px;
 }
 
 :not(pre) > code {
-    padding:           2px 2px;
-    color:             #558b2f;
+    font-family:       monospace;
 }
 
 .cover-image {
@@ -69,4 +68,8 @@ img {
     display:           block;
     max-width:         100%;
     height:            auto;
+}
+
+div.highlight {
+    border: 1px solid #aaa;
 }
