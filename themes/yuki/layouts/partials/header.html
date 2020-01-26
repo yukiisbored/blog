@@ -1,3 +1,14 @@
+<a name="top"></a>
+<div class="navbar">
+    <a href="/" class="icon-home"></a>
+    {{ with .OutputFormats.Get "rss" -}}
+    <a href="{{ .RelPermalink }}" class="icon-rss"></a>
+    {{ end -}}
+</div>
+
+<div class="return-top">
+    <a href="#top" class="icon-up-open"></a>
+</div>
 <div class="container">
     <header>
         <h1><big>{{- .Title | markdownify -}}</big></h1>

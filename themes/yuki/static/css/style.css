@@ -4,7 +4,7 @@ body {
     font-size:         18px;
     color:             #373b41;
     padding:           0 0;
-    margin:            0 0;
+    margin:            2.5em 0;
 }
 
 .container {
@@ -45,6 +45,9 @@ pre {
 
 .pagination-wrapper {
     margin:            0 auto;
+    display:           flex;
+    justify-content:   center;
+    align-items:       center;
 }
 
 ul.pagination {
@@ -64,6 +67,12 @@ li.page-item {
     }
 }
 
+@media (width < 800px) {
+    div.return-top {
+        display:       none;
+    }
+}
+
 img {
     display:           block;
     max-width:         100%;
@@ -71,5 +80,30 @@ img {
 }
 
 div.highlight {
-    border: 1px solid #aaa;
+    border:            1px solid #aaa;
+}
+
+div.navbar {
+    position:          fixed;
+    width:             100%;
+    top:               0px;
+    padding:           0.25em 0.5em;
+    background-color:  #444;
+    color:             #ccc;
+}
+
+div.navbar a {
+    color:             #ccc;
+    text-decoration:   none;
+}
+
+div.return-top {
+    position:          fixed;
+    bottom:            0px;
+    right:             0px;
+}
+
+div.return-top a {
+    text-decoration:   none;
+    font-size:         2em;
 }

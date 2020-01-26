@@ -6,7 +6,7 @@
     <a href="{{ .RelPermalink }}">
         <h2>{{- .Title | markdownify -}}</h2>
     </a>
-    <i>Published on <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time></i>
+    <span class="icon-calendar"></span> <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format $dateFormat }}</time>
     {{ if .Params.Cover }}
     <img class="cover-image" src="{{ .Params.Cover }}">
     {{ end }}
