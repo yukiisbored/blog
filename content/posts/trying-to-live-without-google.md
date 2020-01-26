@@ -6,7 +6,7 @@ cover: /img/free-google-pt1/cover.png
 ---
 
 For the couple of years or so, I've decided to start living without being
-dependent on the electronic giant that is Google. Is it actually possible? If
+dependent on the internet giant that is Google. Is it actually possible? If
 so, how hard is it? Well, it's been a wild ride.
 
 # Why do you want to leave Google?
