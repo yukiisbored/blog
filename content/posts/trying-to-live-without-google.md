@@ -53,7 +53,7 @@ collapse, everyone is affected. Having your whole existence reliant upon one
 thing is bad. If you only rely on Facebook to do your business, well, your
 business will collapse if Facebook suddenly goes under. You have to diversify.
 
-I saw my reliance on Google's reliance as a "vendor lock-in" and in my opinion,
+I saw my reliance on Google as a "vendor lock-in" and in my opinion,
 that is bad. So, how can I get out?
 
 # First step, Moving out of Gmail
