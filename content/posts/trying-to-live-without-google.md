@@ -6,13 +6,13 @@ cover: /img/free-google-pt1/cover.png
 ---
 
 For the couple of years or so, I've decided to start living without being
-dependant on the electronic giant that is Google. Is it actually possible? If
-so, how hard is it?. Well, it's been a wild ride.
+dependent on the electronic giant that is Google. Is it actually possible? If
+so, how hard is it? Well, it's been a wild ride.
 
 # Why do you want to leave Google?
 
 It's probably the first question that I get a lot when doing this project. Why
-do you want to leave Google services? They're such a conveience and you could
+do you want to leave Google services? They're such a convenience and you could
 probably say they're somewhat essential to our modern day style of living. Hell,
 it is essentially a verb in almost every human languages.
 
@@ -35,7 +35,7 @@ because they're typically fed to "robots" or "AIs" and see it as a necessary
 "evil", some people are skeptical as scandals and cases of data abuse from big
 internet companies often arise almost every day. From the big infamous scandal
 of Facebook with Cambridge Analytica[^3] to Google obtaining data of millions of
-patients in the US without their expressed consent[^4]. It is understandble why
+patients in the US without their expressed consent[^4]. It is understandable why
 it's hard for them to trust big companies such as Google, Amazon, Facebook and
 others.
 
@@ -44,7 +44,7 @@ monopolies. Services that are offered by the major internet companies are
 somewhat in a very monopolistic position as they can do whatever they want and
 since there's no good alternatives, they'll stay. This is very evident with how
 YouTube treats it's creators with things such as giving music companies the
-ability to issue baseless copyright claims, demonitizing channels without any
+ability to issue baseless copyright claims, demonetizing channels without any
 specific reason and even silencing them.
 
 I firmly believe any type of "monoculturalism" is bad. Embracing monoculturalism
@@ -126,7 +126,7 @@ the project.
 However, there's one issue. I started to use email more and the limited space of
 1 GB is starting to become a huge limit for me. This was also during the time I
 was starting to plan my future as high school was ending soon. Another thing is
-i'm somewhat stuck with my pseudo that is `yuki_is_bored` as I legitemately have
+I'm somewhat stuck with my pseudo that is `yuki_is_bored` as I legitimately have
 actual certificates under that name along with my entire existence on the
 Internet is connected to it and having to explain from someone who works as a
 recruiter or work at an embassy of a foreign country why your email has "Yuki is
