@@ -1,7 +1,8 @@
-image: klakegg/hugo:latest
+image:
+  name: klakegg/hugo:latest
+  entrypoint: ['']
 
 build:
-  entrypoint: ['']
   script: 'hugo'
   artifacts:
     paths:
