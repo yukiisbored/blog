@@ -1,8 +1,7 @@
 image: klakegg/hugo:latest
 
 build:
-  script:
-    - hugo
+  script: ''
   artifacts:
     paths:
       - public
